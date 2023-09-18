@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ekart|Product</title>
+    <link rel="stylesheet" href="static/css/bootstrap.min.css">
+    <link rel="stylesheet" href="static/css/style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.0/font/bootstrap-icons.css">
+</head>
+<body>
+    <div class="container">
+        <div class="row">
+           <div class="col-md-12 mt-3">
+            <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+              <div class="container-fluid">
+                <a class="navbar-brand" href="product.html">Ekart</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                  <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                  <ul class="navbar-nav">
+                    <li class="nav-item">
+                      <a class="nav-link active" aria-current="page" href="product.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="about.html">About</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="contact.html">Contact</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="register.html">Register</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="Login.html">Login</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="logout.html">Logout</a>
+                    </li>
+                    <!--<li class="nav-item dropdown">
+                      <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        Dropdown link
+                      </a>
+                      <ul class="dropdown-menu">
+                        <li><a class="dropdown-item" href="#">Action</a></li>
+                        <li><a class="dropdown-item" href="#">Another action</a></li>
+                        <li><a class="dropdown-item" href="#">Something else here</a></li>
+                      </ul>
+                    </li>-->
+                  </ul>
+                </div>
+              </div>
+            </nav>
+           </div>
+        </div><!--header section end-->
+        <div class="row">
+             <div class="col-md-3 mt-3 bg-light p-3">
+              <h5>Filter by Category</h5>
+              <hr>
+              <a href="#" class="anchor">All</a><br>
+              <a href="#" class="anchor">Mobile</a><br>
+              <a href="#" class="anchor">Cloths</a><br>
+              <a href="#" class="anchor">Shoes</a><br><br>
+              <h5>Sort by Price</h5>
+              <hr>
+              <a href="#" class="anchor">High to Low</a><br>
+              <a href="#" class="anchor">Low to High</a><br><br>
+
+              <h5>Filter by Price</h5>
+              <hr>
+              <form method="GET">
+                <div class="mb-3">
+                  <label for="input1" class="form-label">Min</label>
+                  <input type="number" class="form-control" id="input1" placeholder="Min price">
+                </div>
+                <div class="mb-3">
+                  <label for="input1" class="form-label">Max</label>
+                  <input type="number" class="form-control" id="input1" placeholder="Max price">
+                </div>
+                <div class="mb-3">
+                   <input type="submit" class="btn btn-danger" value="Search">
+                </div>
+              </form>
+             </div><!--side bar-->
+             <div class="col-md-9 mt-3 bg-light p-3">
+              <div class="row">
+                <div class="col-md-3">
+                  <div class="card" style="width: 100%;">
+                    <img src="static/images/Iphone.webp" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">Apple Mobile</h5>
+                      <p class="card-text">Iphone</p><br><br>
+                      <a href="product_details.html" class="btn btn-primary">See datails</a>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-3">
+                  <div class="card" style="width: 100%;">
+                    <img src="static/images/Kids Shoes.webp" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">Kids Shoes</h5>
+                      <p class="card-text">Comfortable & Lightweight kids shoes</p>
+                      <a href="product_details.html" class="btn btn-primary">See datails</a>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-3">
+                  <div class="card " style="width: 100%;" >
+                    <img src="static/images/Hair Dryer.webp"  class="card-img-top" alt="...">
+                    <div class="card-body"><br><br><br><br>
+                      <h5 class="card-title">Hair Dryer</h5>
+                      <p class="card-text">Iconic Hair Dryer</p><br><br>
+                      <a href="product_details.html" class="btn btn-primary">See datails</a>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-3">
+                  <div class="card" style="width: 100%;">
+                    <img src="static/images/Outfit Boys.jpg" class="card-img-top" alt="...">
+                    <div class="card-body"><br><br>
+                      <h5 class="card-title">Boys Outfit</h5>
+                      <p class="card-text">Boys Clothing</p><br><br>
+                      <a href="product_details.html" class="btn btn-primary">See datails</a>
+                    </div>
+                  </div>
+                </div>
+
+              </div>
+             </div><!--Product list-->
+
+        </div><!--main section end-->
+
+        <div class="row mt-3 bg-warning p-3">
+            
+               <div class="col-md-4">
+                 <h5>address</h5>
+                 <hr>
+                 2nd floor,Landmark Building,<br>
+                 Near FC college,<br>
+                 Pune-411002<br>
+                 Maharastra,<br>
+                 Contact:8975214658
+               </div>
+               <div class="col-md-4">
+                 <h5>Quik links</h5>
+                 <hr>
+                 <a href="product.html" class="anchor">Home</a><br>
+                 <a href="about.html" class="anchor">About</a><br>
+                 <a href="contact.html" class="anchor">Contact</a><br>
+               </div>
+               <div class="col-md-4">
+                <h5>Contact Us</h5>
+                <hr>
+                <h5><a href="#" target="_blank"><i class="bi bi-facebook"></i></a>
+                <a href="#" target="_blank"><i class="bi bi-twitter"></i></a>
+                <a href="#" target="_blank"><i class="bi bi-instagram"></i></a>
+                </h5>
+              </div>
+
+        </div><!--footer section end-->
+
+    </div>
+    <script src="static/Js/bootstrap.min.js"></script>
+    <script src="static/Js/popper.js"></script>
+</body>
+</html>
